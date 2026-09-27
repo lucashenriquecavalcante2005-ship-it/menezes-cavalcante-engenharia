@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["serve.js"],
+      "port": 5177
+    },
+    {
+      "name": "site-python",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5178", "--bind", "127.0.0.1"],
+      "port": 5178
+    }
+  ]
+}
